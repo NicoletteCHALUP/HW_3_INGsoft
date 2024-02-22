@@ -1,6 +1,6 @@
 function generarFizzBuzz(n) {
-
-    if(n===3){
+  const FIZZ =3;
+    if(n%FIZZ===0){
       return "Fizz";
     }
     return n +"";
