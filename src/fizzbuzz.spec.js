@@ -21,6 +21,14 @@ describe("FizzBuzz", () => {
     it("deberia devolver Buzz a otro numero que sea modulo de 5 como caso de 10 ", () => {
     expect(generarFizzBuzz(10)).toEqual("Buzz");
   });
+
+  it("deberia devolver Fizz Buzz al caso base 15 ", () => {
+    expect(generarFizzBuzz(15)).toEqual("FizzBuzz");
+  });
+
+  it("deberia devolver Fizz Buzz a otro numero que sea multiplo de 3 y 5 como el 30  ", () => {
+    expect(generarFizzBuzz(30)).toEqual("FizzBuzz");
+  });
 });
 
 
