@@ -1,7 +1,7 @@
 import generarFizzBuzz from "./FizzBuzz.js";
 
 describe("FizzBuzz", () => {
-  it("deberia devolver la secuencia de un numero como el 1", () => {
+ /* it("deberia devolver la secuencia de un numero como el 1", () => {
     expect(generarFizzBuzz(1)).toEqual("1");
   });
 
@@ -28,6 +28,10 @@ describe("FizzBuzz", () => {
 
   it("deberia devolver Fizz Buzz a otro numero que sea multiplo de 3 y 5 como el 30  ", () => {
     expect(generarFizzBuzz(30)).toEqual("FizzBuzz");
+  });
+*/
+  it("deberia devolver secuencia completa de Fizz Buzz a cualquier numero como el 10  ", () => {
+    expect(generarFizzBuzz(10)).toEqual("1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz");
   });
 });
 
