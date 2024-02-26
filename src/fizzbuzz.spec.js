@@ -15,7 +15,9 @@ describe("FizzBuzz", () => {
     it("deberia devolver Fizz a otro numero que sea modulo de 3 como el 6", () => {
         expect(generarFizzBuzz(6)).toEqual("Fizz");
   });
-
+  it("deberia devolver Buzz al numero  5 como caso base de BUZZ ", () => {
+    expect(generarFizzBuzz(5)).toEqual("Buzz");
+});
 });
 
 
