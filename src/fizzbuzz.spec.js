@@ -17,7 +17,10 @@ describe("FizzBuzz", () => {
   });
   it("deberia devolver Buzz al numero  5 como caso base de BUZZ ", () => {
     expect(generarFizzBuzz(5)).toEqual("Buzz");
-});
+  });
+    it("deberia devolver Buzz a otro numero que sea modulo de 5 como caso de 10 ", () => {
+    expect(generarFizzBuzz(10)).toEqual("Buzz");
+  });
 });
 
 
